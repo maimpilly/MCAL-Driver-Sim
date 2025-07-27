@@ -1,0 +1,28 @@
+# File: .github/workflows/c-build.yml
+
+name: C/C++ CI
+
+# This workflow will run on every push to the 'main' branch
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    # The type of virtual machine to run the job on
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Check out the repository code so the workflow can access it
+    - uses: actions/checkout@v3
+
+    # Step 2: Run the build command
+    # Same command you used in terminal
+    - name: Build Project
+      run: gcc main.c spi_driver.c -o spi_test.exe
+
+    # Step 3: Run the executable to make sure it works
+    - name: Run Test Application
+      run: ./spi_test.exe
