@@ -1,0 +1,6 @@
+# Ignore compiled object files
+*.o
+*.exe
+
+# Ignore personal notes
+notes.md
