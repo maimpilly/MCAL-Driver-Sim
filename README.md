@@ -6,7 +6,7 @@
 
 ## Project Goal
 
-This project demonstrates the ability to write a low-level hardware driver for a microcontroller peripheral from scratch. The goal was to simulate the development process for a driver within the **MCAL (Microcontroller Abstraction Layer)** of the AUTOSAR architecture.
+This project demonstrates the implementation of a low-level hardware driver for a microcontroller peripheral from scratch. The goal was to simulate the development process for a driver within the **MCAL (Microcontroller Abstraction Layer)** of the AUTOSAR architecture.
 
 The project involves:
 1.  Reading a "datasheet" to understand hardware register functionality.
