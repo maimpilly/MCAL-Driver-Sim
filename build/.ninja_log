@@ -1,0 +1,4 @@
+# ninja log v6
+30	358	7753469304245640	CMakeFiles/spi_test.dir/main.c.obj	6a15200efc5d0c8c
+42	365	7753469304362668	CMakeFiles/spi_test.dir/spi_driver.c.obj	30b79f0ef4a5f43e
+366	629	7753469307517282	spi_test.exe	7353d0c9604cd3eb

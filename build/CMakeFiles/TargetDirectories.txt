@@ -1,0 +1,3 @@
+D:/3_PersonalGit/MCAL-Driver-Sim/build/CMakeFiles/spi_test.dir
+D:/3_PersonalGit/MCAL-Driver-Sim/build/CMakeFiles/edit_cache.dir
+D:/3_PersonalGit/MCAL-Driver-Sim/build/CMakeFiles/rebuild_cache.dir
